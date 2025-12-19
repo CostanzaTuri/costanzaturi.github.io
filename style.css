@@ -1,1 +1,21 @@
+@font-face {
+  font-family: 'Canela';
+  src: url('fonts/Canela-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: 'Canela', serif;
+  font-size: 16px;
+  color: #111;
+}
